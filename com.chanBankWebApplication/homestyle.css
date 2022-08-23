@@ -1,0 +1,74 @@
+body {
+    background: linear-gradient(to right, black, white);
+}
+
+.container {
+    position: relative;
+    border: 5px solid rgb(206, 84, 84);
+    width: 350px;
+    height: 700px;
+    border-radius: 50px;
+    text-align: center;
+    margin: auto;
+    background: linear-gradient(to bottom left, rgb(181, 217, 181), rgba(146, 203, 146, 0), rgb(201, 128, 128), rgb(243, 243, 92), orange, green, purple);
+    box-shadow: 1px 5px 0 3px rgba(160, 85, 85, 0.126);
+}
+
+.notch {
+    background: linear-gradient(to right, grey, white);
+    position: relative;
+    width: 20px;
+    height: 20px;
+    border: 2px solid black;
+    text-align: center;
+    margin: auto;
+    border-radius: 20px;
+    top: 10px;
+}
+
+.login {
+    position: relative;
+    width: 200px;
+    height: 300px;
+    border: 1px solid red;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    top: 210px;
+    box-shadow: 1px 10px 10px rgb(41, 41, 59);
+    background: linear-gradient(to right, rgb(117, 191, 228), rgba(117, 191, 228, 0));
+    border-radius: 30px;
+}
+
+h3 {
+    font-family: cursive;
+    color: black;
+    font-weight: bold;
+    padding: 30px;
+}
+
+h1 {
+    font-size: 57px;
+    position: absolute;
+    padding: 30px;
+}
+
+input {
+    padding: 5px;
+    margin: auto;
+    border: 2px solid rgb(216, 100, 100);
+    border-radius: 10px;
+    font-weight: bold;
+    font-family: tahoma, arial, helvetica;
+    box-shadow: 2px 2px rgb(95, 117, 52);
+}
+
+button {
+    background: steelblue;
+    font-family: cursive;
+    font-weight: bold;
+    width: 70px;
+    height: 30px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px rgb(69, 69, 94);
+}
